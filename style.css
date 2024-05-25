@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{
+    margin: 30px;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.header__name{
+    font-size: 50px;
+}
+
+.header__role{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.header__contact, .header__home{
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.about, 
+.interests, 
+.projects, 
+.footer{
+    margin-top: 20px;
+}
+ 
+.about__description, 
+.interests__description,
+.footer__description,
+.projects__description{
+    margin-top: 10px;
+}
+
+.interests li, .projects li{
+    list-style: none;
+    font-weight: 500;
+}
+
+.interests{
+    display: inline-block;
+    background-color: #6462FD;
+    padding: 20px;
+    height: 200px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+
+.projects{
+    background-color: #FE7517;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    height: 200px;
+    vertical-align: top;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.footer a{
+    color: skyblue;
+}
+
+.footer__title{
+    margin-bottom: 10px;
+}
+
+.details{
+    margin-top: 20px;
+}
+
+.details__name,
+.details__email,
+.details__message{
+    font-weight: 600;
+}
+
+.details__input,
+.details__textarea{
+    margin-top: 10px;
+}
+
+.details__input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.details__textarea{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.details__submit{
+    padding: 8px 14px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
