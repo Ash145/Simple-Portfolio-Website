@@ -8,6 +8,10 @@ This is a simple portfolio website that serves as a basic template for showcasin
 - **Home Page**: Introduction and overview of the portfolio.
 - **Contact Page**: Form for visitors to get in touch.
 
+##Demo
+
+You can view the website here https://ash145.github.io/Simple-Portfolio-Website/
+
 ## Features
 
 - Clean and simple layout
